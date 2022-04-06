@@ -46,7 +46,9 @@ svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
 
 # Add third-party software packages (The entire repository)
-# git clone https://github.com/libremesh/lime-packages.git package/lime-packages
+git clone https://github.com/tianiue/luci-packages.git package/luci-packages
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 # Add third-party software packages (Specify the package)
 # svn co https://github.com/libremesh/lime-packages/trunk/packages/{shared-state-pirania,pirania-app,pirania} package/lime-packages/packages
 # Add to compile options (Add related dependencies according to the requirements of the third-party software package Makefile)
